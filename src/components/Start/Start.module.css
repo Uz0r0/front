@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  border-radius: 20px;
+  padding: 39px 320px 39px 40px;
+  align-items: center;
+  margin: 30px 0;
+  background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(93deg, #ff5b5b, #e18c44, #ffc04d) border-box;
+  border: 8px solid transparent;
+  display: flex; 
+  justify-content: space-between;
+  min-height: 260px;
+  overflow: visible;
+  max-width: 1000px;
+}
+
+.info {
+  z-index: 1; 
+  padding-left: 40px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+  background: linear-gradient(93deg, #ff5b5b, #e18c44, #ffc04d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ff7a50;
+  margin: 0;
+}
+
+.image {
+  position: absolute;
+  top: -30px; 
+  right: 30px;
+  object-fit: contain;
+  z-index: 4;
+}
